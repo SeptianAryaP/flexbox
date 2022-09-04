@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FlexBox</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+    <!-- PAGE NAVIGATION -->
+
+    <nav class="page_navigation">
+        <h1 class="brand">CSS Flexbox</h1>
+        <menu>
+            <a href="/">Flex Direction</a>
+            <a href="./wrap.html">Flex Wrap</a>
+            <a href="./justify_content.html">Justify content</a>
+            <a href="./align_items.html">Align Items</a>
+        </menu>
+    </nav>
+    <!-- END PAGE NAVIGATION -->
+
+    <!-- HASH NAVIGATION -->
+    <nav class="hash_navigation">
+        <a href="#row">Row</a>
+        <a href="#row_reverse">Row Reverse</a>
+        <a href="#column">Column</a>
+        <a href="#column_reverse">Column Reverse</a>
+    </nav>
+    <!-- END HASH NAVIGATION  -->
+
+    <h1>CSS Flexbox</h1>
+    <!-- flex row  -->
+    <section id="row">
+        <h3>1.Flex Direction Row</h3>
+        <div class="flex flex_row">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+
+        <pre>
+    .flex_row{
+    flex-direction: row;
+    }
+    </pre>
+    </section>
+    <!-- akhir flex row  -->
+
+    <!-- awal flex row Reverse -->
+    <section id="row_reverse">
+        <h3>2.Flex Row Reverse</h3>
+        <div class="flex row_reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+<pre>
+.row_reverse{
+flex-direction: row-reverse;
+}
+</pre>
+    </section>
+    <!-- akhir flex row Reverse -->
+
+    <!-- awal flex column -->
+    <section id="column">
+        <h3>3.Flex Direction Row</h3>
+        <div class="flex flex_column">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+
+<pre>
+.flex_column{
+flex-direction: column;
+}
+</pre>
+    </section>
+    <!-- akhir flex column  -->
+
+    <!-- awal flex column Reverse -->
+    <section id="column_reverse">
+        <h3>4.Flex Direction Column Revese</h3>
+        <div class="flex column_reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+
+<pre>
+.column_reverse {
+flex-direction: column-reverse;
+}
+</pre>
+    </section>
+    <!-- akhir flex column Reverse -->
+
+
+
+
+
+
+
+</body>
+
+</html>

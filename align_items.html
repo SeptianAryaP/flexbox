@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Align Item</title>
+</head>
+
+<body>
+    <!-- PAGE NAVIGATION -->
+    <nav class="page_navigation">
+        <h1 class="brand">CSS Flexbox</h1>
+        <menu>
+            <a href="/">Flex Direction</a>
+            <a href="./wrap.html">Flex Wrap</a>
+            <a href="./justify_content.html">Justify content</a>
+            <a href="./align_items.html">Align Items</a>
+        </menu>
+    </nav>
+    <!-- END PAGE NAVIGATION -->
+
+    <!-- HASH NAVIGATION -->
+    <nav class="hash_navigation">
+        <a href="#align_center">Align Center</a>
+        <a href="#flex_start">Align Start</a>
+        <a href="#align_end">Align End</a>
+        <a href="#align_baseline">Align Baseline</a>
+        <a href="#align_stretch">Align stretch</a>
+
+
+    </nav>
+    <main>
+        <!-- ALIGN CENTER -->
+        <h1>Align Item</h1>
+        <section id="align_center">
+            <h3>1. Align Center</h3>
+            <div class="flex align_center initial_height">
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, sapiente!</div>
+                <div>Lorem ipsum dolor sit amet.</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div>4</div>
+            </div>
+            <pre>
+                .align_center{
+                height: 300px;
+                align-items: center;
+                }
+            </pre>
+        </section>
+    </main>
+    <!-- ALIGN CENTER END -->
+
+    <!-- ALIGN START -->
+    <section id="align_start">
+        <h3>2. Align Start (defaultnya start)</h3>
+        <div class="flex align_start initial_height">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+<pre>
+.align_center{
+height: 300px;
+align-items: flex-start;
+}
+</pre>
+    </section>
+    <!-- ALIGN START END -->
+
+    <!-- ALIGN END  -->
+    <section id="align_end">
+        <h3>3. Align End</h3>
+        <div class="flex align_end initial_height">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+<pre>
+.align_center{
+height: 300px;
+align-items: flex-end;
+}
+</pre>
+    </section>
+    <!-- ALIGN END END -->
+
+    <!-- ALIGN BASELINE -->
+    <section id="align_baseline">
+        <h3>4. Align Baseline</h3>
+        <div class="flex align_baseline initial_height">
+            <p>asdasdasdasd</p>
+            <p>asdasdasdasdsdsd</p>
+            <p>asdasdasda sd</p>
+            <p>asdasdasda sd</p>
+            <p>asdasdasda sd</p>
+            <p>asdasd asdasd</p>
+        </div>
+<pre>
+.align_baseline{
+height: 300px;
+align-items: baseline;
+}
+</pre>
+    </section>
+    <!-- ALIGN BASELINE -->
+
+    <!-- ALIGN STRETCH  -->
+    <section id="align_stretch">
+        <h3>5. Align stretch</h3>
+        <div class="flex align_stretch initial_height">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis totam rerum
+                consequuntur voluptatem, soluta repellendus necessitatibus veniam et dolor.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis totam rerum
+                consequuntur voluptatem, soluta repellendus necessitatibus veniam et dolor.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis totam rerum
+                consequuntur voluptatem, soluta repellendus necessitatibus veniam et dolor.</div>
+
+        </div>
+<pre>
+.align_stretch{
+height: 300px;
+align-items:stretch;
+}
+</pre>
+    </section>
+    <!-- ALIGN STRETCH END  -->
+    </main>
+</body>
+
+</html>
